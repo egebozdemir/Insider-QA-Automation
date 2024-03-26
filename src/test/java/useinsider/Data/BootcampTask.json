@@ -1,0 +1,31 @@
+[
+  {
+    "teamTitles":  ["Customer Success", "Sales", "Product & Engineering", "Finance & Business Support", "Marketing",
+      "CEO’s Executive Office", "Purchasing & Operations", "People and Culture", "Business Intelligence", "Security Engineering",
+      "Partnership", "Quality Assurance", "Mobile Business Unit", "Partner Support Development", "Product Design"],
+    "officeLocations": ["New York", "Sao Paulo", "London", "Paris", "Amsterdam", "Barcelona", "Helsinki", "Warsaw",
+      "Kiev", "Moscow", "Sydney", "Dubai", "Tokyo", "Seoul", "Singapore", "Bangkok", "Jakarta", "Taipei", "Manila",
+      "Kuala Lumpur", "Ho Chi Minh City", "Istanbul", "Ankara", "Mexico City", "Lima", "Buenos Aires", "Bogota", "Santiago"],
+    "lifeAtInsiderText": ["We’re here to grow and drive growth—as none of us did before. Together, we’re building a culture that inspires us to create our life’s work—and creates a bold(er) impact. We know that we’re smarter as a group than we are alone. Become one of us if you dare to play bigger."],
+    "jobLocation": ["Istanbul, Turkey"],
+    "jobDepartment": ["Quality Assurance"],
+    "jobRoleTitle": ["Software Quality Assurance Engineer"],
+    "leverApplicationUrl": ["jobs.lever.co"]
+  },
+  {
+    "teamTitles":  ["Customer Success", "Sales", "Product & Engineering", "Finance & Business Support", "Marketing",
+      "CEO’s Executive Office", "Purchasing & Operations", "People and Culture", "Business Intelligence", "Security Engineering",
+      "Partnership", "Quality Assurance", "Mobile Business Unit", "Partner Support Development", "Product Design"],
+    "officeLocations": ["New York", "Sao Paulo", "London", "Paris", "Amsterdam", "Barcelona", "Helsinki", "Warsaw",
+      "Kiev", "Moscow", "Sydney", "Dubai", "Tokyo", "Seoul", "Singapore", "Bangkok", "Jakarta", "Taipei", "Manila",
+      "Kuala Lumpur", "Ho Chi Minh City", "Istanbul", "Ankara", "Mexico City", "Lima", "Buenos Aires", "Bogota", "Santiago"],
+    "lifeAtInsiderText": ["We’re here to grow and drive growth—as none of us did before. Together, we’re building a culture that inspires us to create our life’s work—and creates a bold(er) impact. We know that we’re smarter as a group than we are alone. Become one of us if you dare to play bigger."],
+    "jobLocation": ["Istanbul, Turkey"],
+    "jobDepartment": ["Quality Assurance"],
+    "jobRoleTitle": ["PRODUCT OWNER"],
+    "leverApplicationUrl": ["jobs.lever.co"]
+  }
+
+]
+
+

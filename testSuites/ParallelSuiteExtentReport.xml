@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+    <!--
+    THIS SUITE IS CREATED TO EXECUTE TEST CASES IN PARALLEL
+    BUT DUE TO A RACE CONDITION OCCURS DURING EXECUTION OF DATABASE OPERATIONS, IT FAILS.
+    SO, THIS SUITE INCLUDES LISTENER FOR CREATING HTML REPORT UNDER /REPORTS DIRECTORY.
+    PLEASE RUN SERIAL SUITE FOR STORING THE TEST RESULTS INTO MYSQL WHICH IS CONNECTED TO GRAFANA.
+    (I'LL BE PUSHING THE FIX AND EDIT JENKINS BUILD AFTER MAKING IT THREAD SAFE FOR DB LISTENERS ALSO)
+    -->
+
+    <listeners>
+        <listener class-name="useinsider.TestComponets.ExtentReportListenersNG"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="Insider Bootcamp Test 1 - Generic via test data">
+        <classes>
+            <class name="useinsider.Tests.BootcampTest">
+                <methods>
+                    <include name="genericJobSearchTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Insider Bootcamp Test 2 - Task requirements only">
+        <classes>
+            <class name="useinsider.Tests.BootcampTest">
+                <methods>
+                    <include name="qaJobSearchTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
